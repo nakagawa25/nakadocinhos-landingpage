@@ -55,14 +55,14 @@ main {
 
 nav {
   padding: 64px;
-  margin-top: -150px;
+  margin-top: -125px;
   grid-area: product;
   animation: entering 0.7s ease-in-out;
 }
 
 .menu {
-  font-size: 2.5rem;
-  margin-bottom: 60px;
+  font-size: 2rem;
+  margin-bottom: 45px;
   text-align: center;
 }
 
@@ -73,6 +73,7 @@ nav {
   font-size: 1rem;
   gap: 20px;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 .description {
@@ -88,8 +89,15 @@ nav {
   justify-content: space-between;
 }
 
+.title .price {
+  font-size: 1.25rem;
+  color: rgb(201, 146, 76);
+}
+
 .description p {
   margin-top: 15px;
+  line-height: 1.5;
+  text-align: justify;
 }
 
 .product img {
@@ -173,7 +181,7 @@ aside .whatsapp {
 
 @media (max-width: 768px) {
   :root {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   body {
@@ -197,5 +205,15 @@ aside .whatsapp {
 
   nav .menu {
     margin-top: 40px;
+  }
+
+  .product img {
+    height: 130px;
+    width: 130px;
+    border-radius: 15%;
+  }
+
+  .description p {
+    line-height: normal;
   }
 }
