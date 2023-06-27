@@ -89,9 +89,18 @@ nav {
   justify-content: space-between;
 }
 
-.title .price {
+.price {
   font-size: 1.25rem;
   color: rgb(201, 146, 76);
+}
+
+.price-description {
+  font-size: 0.75rem;
+  color: rgb(201, 146, 76);
+}
+
+.price-container {
+  align-items: end;
 }
 
 .description p {
@@ -104,6 +113,24 @@ nav {
   height: 160px;
   width: 160px;
   border-radius: 15%;
+}
+
+.personalization-check {
+  max-height: 35px;
+  margin-top: 10px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.personalization-check img {
+  height: 25px;
+  width: 25px;
+}
+
+.personalization-check p {
+  margin-top: 0;
+  color: #4bae50;
 }
 
 aside {
@@ -211,6 +238,11 @@ aside .whatsapp {
     height: 130px;
     width: 130px;
     border-radius: 15%;
+  }
+
+  .personalization-check img {
+    height: 20px;
+    width: 20px;
   }
 
   .description p {
