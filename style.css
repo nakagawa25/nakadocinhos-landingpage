@@ -135,12 +135,6 @@ nav {
 
 aside {
   grid-area: contact;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
-
   border-right: 1px solid;
   border-image: linear-gradient(rgb(201, 146, 76), rgb(216, 179, 123)) 1;
 
@@ -153,6 +147,26 @@ aside {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+aside .aside-container {
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.najf {
+  font-size: 0.75rem;
+  text-align: left;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.najf a {
+  text-decoration: none;
 }
 
 aside .logo-name {
@@ -220,6 +234,12 @@ aside .whatsapp {
   aside {
     border-right: none;
     padding: 32px 12px;
+  }
+
+  .najf {
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 2.5rem;
   }
 
   main {
